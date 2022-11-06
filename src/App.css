@@ -1,0 +1,68 @@
+.hero {
+  min-height: 60vh;
+  background: linear-gradient(90deg, #e7db76 0.25%, #5dcb36 100%);
+}
+
+/* title */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.title span {
+  padding: 0 1rem;
+  border-bottom: 0.4rem solid rgb(140, 160, 100);
+}
+
+/* icons */
+.icons {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icons i {
+  font-size: 5rem;
+}
+
+.icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Project section */
+.projects {
+  background: rgba(112, 107, 84, 0.41);
+}
+
+/* contact me section */
+.contact {
+  background: rgba(71, 101, 61, 0.62);
+}
+
+/* up button  */
+.goup {
+  position: fixed;
+  bottom: 125px;
+  right: 20px;
+}
+
+.test {
+  background: green;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
