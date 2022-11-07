@@ -1,9 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Layout } from "./Layout";
 // import my from "../assets/aa.png";
 
 export const AboutMe = () => {
   return (
+    <Layout>
     <Container id="about-me" class=" mt-3 py-5">
       <div class="title">
         <span>About Me</span>
@@ -31,5 +33,6 @@ export const AboutMe = () => {
         </Col>
       </Row>
     </Container>
+    </Layout>
   );
 };
