@@ -1,9 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Layout } from "./Layout";
 // import aa from "../assets/aa.png";
 
 export const Projects = () => {
   return (
+    <Layout> 
     <div id="projects" class="projects py-5">
       <Container>
         <div class="title">
@@ -20,7 +22,8 @@ export const Projects = () => {
                 <a href="#!" target="_blank">
                   <i class="fa-brands fa-square-github"></i>
                 </a>
-                <a href="#!" target="_blank">
+                <a href="#!
+                " target="_blank">
                   <i class="fa-brands fa-chrome"></i>
                 </a>
               </div>
@@ -86,5 +89,6 @@ export const Projects = () => {
         </Row>
       </Container>
     </div>
+    </Layout>
   );
 };

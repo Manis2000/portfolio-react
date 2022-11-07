@@ -1,8 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Layout } from "./Layout";
 
 export const Contact = () => {
   return (
+    <Layout> 
     <Container id="contact" className=" contact rounded-5 py-2">
       <div className="title">
         <span>Contact Me</span>
@@ -29,5 +31,6 @@ export const Contact = () => {
         </Col>
       </Row>
     </Container>
+    </Layout>
   );
 };

@@ -1,8 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Layout } from "./Layout";
 
 export const Skills = () => {
   return (
+    <Layout> 
     <Container id="skills" className=" py-3 mb-5">
       <Row>
         <Col>
@@ -30,5 +32,6 @@ export const Skills = () => {
         </Col>
       </Row>
     </Container>
+    </Layout>
   );
 };
