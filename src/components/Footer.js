@@ -5,7 +5,11 @@ export const Footer = () => {
     <div>
 
 <footer class="footer bg-dark text-light text-center py-5 mt-5">
+ 
+        Copyritght &copy; all reserved. Made with passion by me.
+ 
         Copyritght &copy; all reserved. Made with passion  by me.
+ 
       </footer>
 
       <a href="#wrapper" class="goup" id="goup">
