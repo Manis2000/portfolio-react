@@ -8,8 +8,6 @@ export const Footer = () => {
  
         Copyritght &copy; all reserved. Made with passion by me.
  
-        Copyritght &copy; all reserved. Made with passion  by me.
- 
       </footer>
 
       <a href="#wrapper" class="goup" id="goup">
