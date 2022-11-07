@@ -12,10 +12,10 @@ export const TopNav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Link ClassName ="nav-link" to="/skills">Skills</Link>
-            <Link ClassName ="nav-link"  to="/projects">Projects</Link>
-            <Link ClassName ="nav-link"  to="/about-me">About Me</Link>
-            <Link ClassName ="nav-link"  to="/contact">Contact</Link>
+            <Link className ="nav-link" to="/skills">Skills</Link>
+            <Link className ="nav-link"  to="/projects">Projects</Link>
+            <Link className ="nav-link"  to="/about-me">About Me</Link>
+            <Link className ="nav-link"  to="/contact">Contact</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
